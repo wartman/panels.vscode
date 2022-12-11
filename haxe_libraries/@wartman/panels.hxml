@@ -1,0 +1,6 @@
+# @install: lix --silent download "gh://github.com/wartman/panels#5b7ee0cc531a214b78072e6eebe13100735e740c" into _wartman_panels/0.0.1-alpha1/github/5b7ee0cc531a214b78072e6eebe13100735e740c
+-lib cmdr
+-lib hxnodejs
+-lib tink_core
+-cp ${HAXE_LIBCACHE}/_wartman_panels/0.0.1-alpha1/github/5b7ee0cc531a214b78072e6eebe13100735e740c/src
+-D @wartman/panels=0.0.1-alpha1

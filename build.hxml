@@ -1,0 +1,13 @@
+-cp src
+
+-lib vscode
+-lib @wartman/panels
+
+-D js-es=6
+-D analyzer-optimize
+
+-dce full
+
+panels.Extension
+
+-js bin/extension.js
